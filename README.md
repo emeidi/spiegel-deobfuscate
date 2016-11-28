@@ -10,5 +10,8 @@ Das vorliegende Python-Script entschlüsselt chiffrierte SPIEGEL Plus Artikel un
 
 ``--output [stdout|file]`` Print the parsed HTML to
 
+## Hint
+Once you open the resulting HTML file in Safari, use Safari Reading Mode to get a nicely formatted and readable article layout (also suited for printing).
+
 ## History
 Looking at the source code of a SPIEGEL Plus article about MH370 (available in ``example.txt``) I immediately spotted the string "NI481" showing up all over the text. At this moment it dawned upon me that the SPIEGEL web developers probably remembered [ROT13](https://en.wikipedia.org/wiki/ROT13) from their earlier coding days and decided to implement it as an accurate protection of their paywalled articles.
