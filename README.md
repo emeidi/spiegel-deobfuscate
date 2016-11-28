@@ -10,7 +10,7 @@ Das vorliegende Python-Script entschlüsselt chiffrierte SPIEGEL Plus Artikel un
 
 ``--url http://www.spiegel.de/...`` Self explanatory; the URL pointing to the SPIEGEL Plus article
 
-``--output [stdout|file]`` Print the parsed HTML to
+``--output [stdout|file]`` Print the parsed HTML to stdout or to a file (named after the URL of the article)
 
 ## Hint
 Once you open the resulting HTML file in Safari, use Safari Reading Mode to get a nicely formatted and readable article layout (also suited for printing).
